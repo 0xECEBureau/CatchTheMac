@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <title>Home - 0xECE Token Generator</title>
+  </head>
+  <body>
+    <h2>Unbreakable Token Generator</h2>
+    <form method="post">
+      <label for="username">Username:</label>
+      <input type="text" name="username" required />
+      <button type="submit">Generate Token</button>
+    </form>
+
+    {% if token %}
+    <h3>Your Token:</h3>
+    <textarea rows="5" cols="60">{{ token }}</textarea>
+    {% endif %}
+  </body>
+</html>

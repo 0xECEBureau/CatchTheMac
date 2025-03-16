@@ -5,4 +5,4 @@ Pouvez-vous le retrouver ?
 
 📂 **Fichier fourni** : `ciphertext.txt`
 
-Format du flag : `CTF{...}`
+Format du flag : `MAC{...}`
