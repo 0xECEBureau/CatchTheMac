@@ -4,23 +4,21 @@ services:
     image: tristanqtn/chall_0
     container_name: chall_0
     ports:
-      - "8080:8080"
+      - "8000:8000"
   chall_1:
     image: tristanqtn/chall_1
     container_name: chall_1
     ports:
-      - "5000:5000"
+      - "8001:8001"
 
   chall_2:
     image: tristanqtn/chall_2
     container_name: chall_2
     ports:
-      - "8000:8000"
+      - "8002:8002"
 
   chall_3:
     image: tristanqtn/chall_3
     container_name: chall_3
     ports:
-      - "9000:9000"
-# docker-compose up -d
-# docker ps
+      - "8003:8003"
