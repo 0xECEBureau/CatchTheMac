@@ -1,0 +1,27 @@
+[INFO] Interface configuration:
+ifconfig eth0
+inet addr:192.168.2.10  Bcast:192.168.2.255  Mask:255.255.255.0
+
+[INFO] Pinging known hosts...
+ping 192.168.2.1 - SUCCESS
+ping 192.168.2.5 - SUCCESS
+ping 192.168.2.15 - SUCCESS
+ping 192.168.2.30 - SUCCESS
+ping 192.168.2.31 - NO REPLY
+ping 192.168.2.32 - Destination Host Unreachable
+ping 192.168.2.33 - Destination Host Unreachable
+ping 192.168.2.44 - Destination Host Unreachable
+ping 192.168.2.128 - Destination Host Unreachable
+
+[DEBUG] Attempting ARP resolution
+arping 192.168.2.1 - response from 00:11:22:33:44:01
+arping 192.168.2.30 - response from 00:11:22:33:44:1E
+arping 192.168.2.31 - NO RESPONSE
+arping 192.168.2.33 - Destination Host Unreachable
+
+[INFO] Checking routing table:
+Destination     Gateway         Genmask         Flags Iface
+192.168.2.0     *               255.255.255.0   U     eth0
+
+[NOTE] Unexpected failures in ping
+
