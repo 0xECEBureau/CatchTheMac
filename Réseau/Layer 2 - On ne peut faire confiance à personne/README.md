@@ -16,9 +16,7 @@ Un enregistrement réseau a été récupéré juste avant la disparition de Mac.
 
 Retrouver **l'adresse IP réelle** de la machine malveillante et le **numéro de paquet** à l'origine de l'attaque. 
 
-Cette adresse IP est votre flag.
-
-Format du flag : une adresse IPv4 (ex : `MAC{X.X.X.X_numeroDePaquet}`)
+Format du flag : une adresse IPv4 et un numéro de paquet (ex : `MAC{X.X.X.X_numeroDePaquet}`)
 
 
 
