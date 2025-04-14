@@ -207,7 +207,6 @@ arp_spoof_reply = Ether(src=ATTACKER_MAC, dst=VICTIM_MAC)/ARP(
 )
 add_packet(arp_spoof_reply)
 # On peut envoyer plusieurs fois pour s'assurer que le cache de la victime est empoisonné
-add_packet(arp_spoof_reply.copy()) # Copie pour avoir un timestamp légèrement différent
 time.sleep(get_random_delay())
 
 # 4. Phase Man-in-the-Middle (MitM)

@@ -30,12 +30,13 @@ Vous disposez d’un fichier `.pcap` contenant une série de paquets ARP (avant 
 4. **Observer la requête ARP où l’attaquant révèle son IP** :
    - Si vous voyez par exemple :
      > "Who has 192.168.1.100 ? Tell 192.168.1.13"
-     et que l’emetteur (MAC `00:1a:cd:ef:42:00`) déclare `192.168.1.13` comme source IP,
+
+     Et que l’emetteur (MAC `00:1a:cd:ef:42:00`) déclare `192.168.1.13` comme source IP dans les frames _331_ & _332_
      alors on comprend que **192.168.1.66** = IP réelle de l'attaquant.
 
 ## Flag
 
 Pour répondre, fournissez simplement l’adresse IP de l’attaquant, au format IPv4. Ex :
 ```
-MAC{192.168.1.13}
+MAC{192.168.1.13_331}
 ```
