@@ -1,7 +1,7 @@
 # 🕵️‍♂️ *"Le dernier message de Mac"* - Challenge Misc
 
 **Catégorie** : Forensic / Stéganographie  
-**Difficulté** : ★☆☆☆☆ (Débutant)  (Débutant) 
+**Difficulté** : ★☆☆☆☆ (Débutant)
 
 ## 📜 **Contexte**
 Avant de disparaître, Mac a laissé derrière lui des fragments de ses secrets dans des fichiers corrompus.  
