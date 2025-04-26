@@ -1,0 +1,1 @@
+Un décalage simple a été appliqué sur chaque lettre. À vous de trouver combien de positions ont été décalées.

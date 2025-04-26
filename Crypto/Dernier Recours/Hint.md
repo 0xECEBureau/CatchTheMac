@@ -1,0 +1,1 @@
+Le message ci-dessous a été chiffré en utilisant un chiffrement XOR avec une clé d'un seul octet, inconnue. À vous de retrouver la clé et déchiffrer le message.

@@ -10,6 +10,12 @@ Certains affirment qu’il a effacé toute trace de son existence. D’autres pr
 
 Votre mission est simple en apparence : retrouver Mac et récupérer ce qu’il a volé. Mais Mac n’est pas du genre à se laisser traquer facilement. Il a laissé derrière lui un enchaînement d’épreuves conçues pour tester les meilleurs. Seuls ceux qui sauront décrypter ses messages, déjouer ses pièges et suivre ses traces pourront espérer découvrir la vérité.
 
+## Contenu du CTF
+
+Ce CTF s'adresse au membre d'0xECE de niveau grand débutant à confirmé. Le but est de découvrir les grandes catégories du CTF et de trouver le niveau de difficulté qui vous correspond le mieux.
+
+L'objectif de chaque challenge est de retrouver un flag au format `MAC{X}`. Certain challenges vous demanderont de retrouver une information précise et de la concaténer avec le format du flag, tout vous sera précisé dans l'énoncé du challenge.
+
 ## Structure
 
 Pour chaque challenge, veuillez respecter la strucutre suivante :
