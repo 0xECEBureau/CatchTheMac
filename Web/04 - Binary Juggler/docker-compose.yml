@@ -1,8 +1,0 @@
-services:
-  web:
-    build: .
-    container_name: ctf_web
-    volumes:
-      - ./web:/var/www/html
-    ports:
-      - "8080:80"
