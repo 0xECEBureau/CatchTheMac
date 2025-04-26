@@ -6,17 +6,3 @@ services:
       - ./web:/var/www/html
     ports:
       - "8080:80"
-    depends_on:
-      - db
-
-  db:
-    image: mysql:5.7
-    container_name: ctf_db
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: ctf_db
-      MYSQL_USER: ctfuser
-      MYSQL_PASSWORD: ctfpassword
-    volumes:
-      - ./mysql:/docker-entrypoint-initdb.d

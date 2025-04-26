@@ -1,6 +1,5 @@
 <?php
 session_start();
-require "secretFilesThatShouldNeverBeFound/db.php";
 
 // Check if there's an error message in the session and display it
 if (isset($_SESSION["login_error"])) {
@@ -12,22 +11,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    // Retrieve user from database
-    $stmt = $mysqli->prepare("SELECT id, password FROM users WHERE username = ?");
-    $stmt->bind_param("s", $username);
-    $stmt->execute();
-    $stmt->bind_result($id, $db_password);
-    $stmt->fetch();
-    $stmt->close();
-
     // Type juggling vulnerability
-    if (md5($password) == $db_password) {
-        $_SESSION["user_id"] = $id;
+    if (md5($password) == "0e123123464646876543456789") {
+        $_SESSION["user_id"] = 1; // Hardcode a user_id for session validation
         header("Location: secretFilesThatShouldNeverBeFound/super_secret_flag.php");
         exit();
     } else {
-        $_SESSION["login_error"] = "Invalid login!"; // Set error message
-        header("Location: index.php"); // Redirect back to index page
+        $_SESSION["login_error"] = "Invalid login!";
+        header("Location: index.php");
         exit();
     }
 }

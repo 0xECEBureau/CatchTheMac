@@ -4,15 +4,6 @@ if (!isset($_SESSION["user_id"])) {
     die("Unauthorized access!");
 }
 
-require "db.php";  
-
-$user_id = $_SESSION["user_id"];
-$stmt = $mysqli->prepare("SELECT flag FROM flags WHERE user_id = ?");
-$stmt->bind_param("i", $user_id);
-$stmt->execute();
-$stmt->bind_result($flag);
-$stmt->fetch();
-$stmt->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +42,7 @@ $stmt->close();
     <div class="container text-center">
         <div class="card p-4 shadow-lg w-100">
             <h2>Welcome to the Challenge!</h2>
-            <p class="flag"><?= htmlspecialchars($flag); ?></p>
+            <p class="flag"><?= htmlspecialchars("MAC{Typ3_jugg11ng_1s_s0_stup1d_h00rah_php}"); ?></p>
         </div>
     </div>
 </body>
