@@ -7,7 +7,8 @@ Certains pensent qu’il s’agit d’un parcours initiatique. D’autres croien
 Chaque challenge débloque un indice nécessaire pour accéder au suivant. Il faudra analyser des signaux, décrypter des paquets, intercepter des requêtes, comprendre les protocoles... Mac n'a rien laissé au hasard.
 
 ## Layer 1 - La Fréquence du Mensonge
-Niveau : moyen
+
+**Niveau :** moyen
 
 Mac était un maître du réseau. Avant de disparaître, il a saboté l’une des lignes de communication analogiques secrètes de 0xECE, et y a laissé un signal cryptique. Ce signal ne suit aucun protocole connu, aucune norme. Il semble avoir été enregistré directement depuis une sonde branchée sur un ancien canal filaire.
 
@@ -15,4 +16,4 @@ Certains pensent qu’il s’agit d’une signature. D’autres d’un code. Mai
 
 Vous avez réussi à intercepter ce signal. Saurez-vous le déchiffrer ?
 
-Format : le contenu déchiffré doit être mis combiné avec la structure classique pour avoir le flag : `MAC{contenu_dechiffre}`
+**Format:** le contenu déchiffré doit être mis combiné avec la structure classique pour avoir le flag : `MAC{contenu_dechiffre}`

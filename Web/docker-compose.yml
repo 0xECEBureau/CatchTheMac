@@ -4,21 +4,21 @@ services:
     image: tristanqtn/chall_0
     container_name: chall_0
     ports:
-      - "8000:8000"
+      - "8001:80"
   chall_1:
     image: tristanqtn/chall_1
     container_name: chall_1
     ports:
-      - "8001:8001"
+      - "8002:80"
 
   chall_2:
     image: tristanqtn/chall_2
     container_name: chall_2
     ports:
-      - "8002:8002"
+      - "8003:80"
 
   chall_3:
     image: tristanqtn/chall_3
     container_name: chall_3
     ports:
-      - "8003:8003"
+      - "8004:80"

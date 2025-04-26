@@ -22,7 +22,7 @@ docker push tristanqtn/chall_3
 
 # Infra
 
-L'infrastructre est composée de 3 containers Docker. Ces conteneurs sont hébergés sur mon DockerHub: https://hub.docker.com/u/tristanqtn
+L'infrastructre est composée de 4 containers Docker. Ces conteneurs sont hébergés sur mon DockerHub: https://hub.docker.com/u/tristanqtn
 
 ```bash
 docker compose up -d

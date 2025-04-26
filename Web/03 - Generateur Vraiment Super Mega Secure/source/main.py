@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-import random, datetime, string, jwt 
+import random, datetime, string, jwt, time, os
 
 startup = datetime.datetime.now()
 startup_ts = startup.timestamp()
@@ -51,6 +51,28 @@ def settime():
     except:
         return jsonify({"error": "Invalid time"}), 400
 
+@app.route('clock', methods=["GET"])
+def clock():
+    time = request.args.get("time")
+    if not time:
+        return jsonify({"error": "Time required"}), 400
+    try:
+        current_time = datetime.timezone.utc + datetime.timedelta(hours=int(time))
+        return jsonify({"status": "ok", "current_time": current_time.strftime("%Y-%m-%d %H:%M:%S")})
+    except:
+        return jsonify({"error": "Invalid time"}), 400
+
+@app.route("/cpu_ticks", methods=["GET"])
+def cpu_ticks():
+    start_time = datetime.datetime.now()
+    start_ticks = os.times()[4]
+    time.sleep(1) 
+    end_ticks = os.times()[4] 
+    end_time = datetime.datetime.now()
+    elapsed_time = (end_time - start_time).total_seconds()
+    cpu_ticks = end_ticks - start_ticks
+    return jsonify({"status": "ok", "cpu_ticks": cpu_ticks, "elapsed_time": elapsed_time}) 
+
 @app.route("/", methods=["GET", "POST"])
 def home():
     token = None
@@ -87,4 +109,4 @@ def admin():
 
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8003, debug=False)
+    app.run(host="0.0.0.0", port=80, debug=False)

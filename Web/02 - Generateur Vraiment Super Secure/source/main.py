@@ -62,4 +62,4 @@ def admin():
     return render_template("admin.html", flag="MAC{Y0u_4r3_4_1337_h4ck3r}")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8002, debug=False)
+    app.run(host="0.0.0.0", port=80, debug=False)

@@ -28,7 +28,7 @@ RUN poetry config virtualenvs.create false \
 COPY . .
 
 # Expose Flask port (Ensure it matches app.py)
-EXPOSE 8001
+EXPOSE 80
 
 # Run the application
 CMD ["poetry", "run", "python", "main.py"]
