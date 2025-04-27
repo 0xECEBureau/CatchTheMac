@@ -1,0 +1,1 @@
+L’octet dans `jardin_secret.key2.bin` sert de clé pour un XOR simple. 

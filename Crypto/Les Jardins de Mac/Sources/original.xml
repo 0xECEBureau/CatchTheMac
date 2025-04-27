@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardin>
+  <nom>Jardin Secret de Mac</nom>
+  <creation>2025-04-01</creation>
+  <description>Les véritables secrets de Mac se trouvent ici, cachés parmi les balises.</description>
+  <flag>MAC{Mon_Petit_Jardin_Secret}</flag>
+  <plantes>
+    <plante id="1">Rosier</plante>
+    <plante id="2">Chêne</plante>
+    <plante id="3">Lavande</plante>
+  </plantes>
+  <notes>
+    <note id="1">Attention aux racines numériques.</note>
+    <note id="2">Le XOR final dévoile tout.</note>
+    <note id="3">Chaque balise murmure un souvenir de Mac.</note>
+    <note id="4">Le réseau est la clé, mais pas tout le temps.</note>
+    <note id="5">Est ce que j'ai mis le Tank top Rootme à laver ?</note>
+    <note id="6">Allo centrale ? Ca commence à etre long...</note>
+    <note id="7">Ibrahim t'as fais le tp de ML ?</note>
+  </notes>
+  <tresor>
+    <indice>Regardez sous la feuille de lavande.</indice>
+    <indice>Les pétales forment un motif binaire.</indice>
+  </tresor>
+</jardin>
