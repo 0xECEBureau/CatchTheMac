@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* General Styles */
+      body {
+        font-family: "Roboto", Arial, sans-serif;
+        background: linear-gradient(to right, #ece9e6, #ffffff);
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      header {
+        background: #4caf50;
+        color: white;
+        padding: 20px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      header p {
+        margin: 5px 0 0;
+        font-size: 1.2rem;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      section {
+        background: white;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+      }
+
+      h2 {
+        color: #4caf50;
+        font-size: 1.8rem;
+      }
+
+      footer {
+        background: #333;
+        color: white;
+        padding: 10px 0;
+        margin-top: 20px;
+        font-size: 0.9rem;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      /* Form Styles */
+      form {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      input,
+      button,
+      textarea {
+        padding: 10px;
+        margin: 10px 0;
+        width: 90%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      button {
+        background: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      button:hover {
+        background: #45a049;
+      }
+
+      textarea {
+        height: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you!</p>
+    </header>
+    <main>
+      <section>
+        <p>My office is located at: 124 Rue de la Foret, Paris, France</p>
+        <p>Email us at: mac@bucheron.com</p>
+        <p>Call us at: 06785134567</p>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+          <br />
+          <a href="/" class="button">Back to Home</a>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
