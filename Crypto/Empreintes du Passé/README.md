@@ -9,3 +9,5 @@ Votre mission : identifier chaque algorithme derrière les empreintes, puis les 
 # 🚩 Format du Flag
 
 MAC{flag1_flag2_flag3_flag4_flag5}
+
+Auteur : Snaxx

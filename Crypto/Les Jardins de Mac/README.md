@@ -6,3 +6,5 @@ Mac protégeait ses découvertes dans un « jardin » numérique. Pour empêcher
 A vous de les identifier afin de retrouver le flag !
 
 Vous avez à votre disposition une suite de 52 caracteres mysterieux, le fichier xml chiffré ainsi que qu'un binaire interessant.
+
+Auteur : Snaxx

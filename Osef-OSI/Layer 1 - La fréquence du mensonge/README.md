@@ -9,3 +9,5 @@ Certains pensent qu’il s’agit d’une signature. D’autres d’un code. Mai
 Vous avez réussi à intercepter ce signal. Saurez-vous le déchiffrer ?
 
 **Format:** le contenu déchiffré doit être mis combiné avec la structure classique pour avoir le flag : `MAC{contenu_dechiffre}`
+
+Auteur : Mac

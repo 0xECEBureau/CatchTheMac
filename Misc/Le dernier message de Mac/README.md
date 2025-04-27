@@ -9,3 +9,5 @@ Ce PDF, récupéré sur son ordinateur, semble ne contenir qu'un message énigma
 **Mais Mac n'a jamais rien fait sans raison.**
 
 **Format:** `MAC{flag}`
+
+Auteur : Hioa

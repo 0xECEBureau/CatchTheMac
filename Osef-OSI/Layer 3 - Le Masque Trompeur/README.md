@@ -9,3 +9,5 @@ Mac aurait-il modifié la configuration du réseau pour dissimuler ses activité
 Trouver ce qui cloche dans le réseau local de Mac et corriger le problème.
 
 **Format :** l'erreur de configuration réseau corrigé (ex : `MAC{X.X.X.X}`)
+
+Auteur : Mac

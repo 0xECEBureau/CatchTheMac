@@ -9,3 +9,5 @@ Fou de rage que vous ayiez réussi à voler ses deux derniers flags, Mac a déci
 Réussirez-vous à lui prouver qu'il a tort ? Trouver le flag du Mac pour continuer la traque.
 
 **Format:** `MAC{flag}`
+
+Auteur : Drachh
