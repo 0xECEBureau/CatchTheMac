@@ -7,3 +7,5 @@ Mac aimait parfois revenir aux classiques. Cette fois-ci, il a utilisé une anci
 Votre mission est claire : déchiffrer ce message afin d'obtenir des indices précieux pour poursuivre vos recherches. La simplicité peut parfois cacher d'importants secrets...
 
 À vous de jouer, agent.
+
+Auteur : Snaxx

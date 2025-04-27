@@ -11,3 +11,5 @@ Retrouver **l'adresse IP réelle** de la machine malveillante et le **numéro de
 **Format :** une adresse IPv4 et un numéro de paquet (ex : `MAC{X.X.X.X_numeroDePaquet}`)
 
 Exemple : `MAC{192.168.1.1_42}`
+
+Auteur : Mac

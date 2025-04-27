@@ -6,3 +6,5 @@ Mac était prudent, mais il a laissé une faiblesse : un message crypté interce
 
 Votre objectif est simple mais essentiel : récupérer et décoder le message laissé par Mac.
 C’est votre première étape pour suivre sa piste. Bonne chance.
+
+Auteur : Snaxx
