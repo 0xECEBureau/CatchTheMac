@@ -1,4 +1,4 @@
-#### Fancy Place
+# Fancy Place
 
 ---
 
