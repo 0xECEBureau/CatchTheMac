@@ -1,0 +1,1 @@
+MAC{kristy.friedman@outlook.com}
