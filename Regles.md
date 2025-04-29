@@ -1,10 +1,10 @@
-# 📜 Règles du CTF - 0xECE 📜
+# 📜 Règles du CatchTheMac CTF - 0xECE 📜
 
 Bienvenue dans cette compétition où seuls les plus malins triompheront ! Pour garantir un jeu équitable et agréable pour tous, voici les règles à respecter impérativement :
 
 ## 🚫 1. Pas de Bruteforce !
 
-- Tous les challenges sont conçus pour être résolus avec réflexion et logique, pas par force brute.
+- Tous les challenges sont conçus pour être résolus avec réflexion et logique.
 - Pas de scan agressif, pas d’attaque en force sur des endpoints, pas de fuzzing excessif.
 - Si une action semble non prévue ou trop destructrice, c’est que ce n’est pas la bonne approche !
 
