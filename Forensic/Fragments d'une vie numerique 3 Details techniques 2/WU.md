@@ -1,0 +1,1 @@
+tout se trouve dans le "info.plist" du backup
