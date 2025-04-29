@@ -1,4 +1,6 @@
-**Medium** (PARTIE 1/2)
+# Long story short
+
+Niveau : **Medium**
 
 Pour trouver le Mac, j'ai commencé à faire un peu de psychologie. 
 Après tout, rien de mieux que de comprendre comment une personne réfléchit pour la trouver, non ? 
