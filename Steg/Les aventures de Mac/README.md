@@ -1,4 +1,4 @@
-Niveau : très facile
+**Niveau : très facile**
 
 Mac s'est perdu !
 
