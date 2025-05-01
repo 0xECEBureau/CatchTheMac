@@ -10,7 +10,7 @@ def support():
         name = request.form.get("name", "").lower()
         msg = request.form.get("message", "").lower()
 
-        if ("presidente" in name or "présidente" in name) and "dossier" in msg and "mac" in msg and ("EC2" in msg or "FIC" in msg):
+        if ("presidente" in name or "présidente" in name) and "dossier" in msg and "mac" in msg and ("ec2" in msg or "fic" in msg):
             response = f"Accès autorisé. Voici le fichier : {flag}"
         else:
             response = "Votre ticket a été reçu. Nous reviendrons vers vous."
