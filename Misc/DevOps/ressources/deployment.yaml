@@ -1,0 +1,57 @@
+version: "3"
+services:
+  starter:
+    container_name: starter
+    image: tristanqtn/hello-world-docker-tristan:latest
+  redis:
+    container_name: redis-db
+    image: redis:latest
+    ports:
+      - "6379:6379"
+  userapi:
+    container_name: nodejs-webapp
+    image: tristanqtn/userapi-devops:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+  controller:
+    container_name: pod_controller
+    image: tristanqtn/alpine:latest
+    ports:
+      - "8080:8080"
+    command: ["sh", "-c", "echo 'Controller is running!' && tail -f /dev/null"]
+    depends_on:
+      - userapi
+      - redis
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - apiVersion: v1
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mypv
+spec:
+  capacity:
+    storage: 10Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: slow
+  mountOptions:
+    - hard
+    - nfsvers=4.1
+  nfs:
+    path: /tmp
+    server: 172.17.0.2
