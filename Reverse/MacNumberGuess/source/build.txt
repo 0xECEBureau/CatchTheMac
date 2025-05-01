@@ -1,0 +1,8 @@
+nasm -f elf64 MacNumberGuess.S -o MacNumberGuess.o
+ld MacNumberGuess.o -o MacNumberGuess.bin
+
+puis copier la section .text en hexa avec CyberChef par exemple et la placer dans MacNumberGuessCreatePayload.py (partie déjà faite)
+
+python MacNumberGuessCreatePayload.py
+
+et copier l'output dans MacNumberGuess

@@ -1,0 +1,6 @@
+gcc -o "encrypt" "encrypt.c" -lssl -lcrypto
+gcc -o "MacPaperScissors" "MacPaperScissors.c"
+
+Lancer encrypt pour obtenir la clef de chiffrement et le flag chiffré.
+
+Modifier MacPaperScissors en changeant ELF par MAC pour qu'il ne soit plus exécutable correctement.

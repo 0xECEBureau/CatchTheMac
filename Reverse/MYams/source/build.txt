@@ -1,0 +1,1 @@
+Utiliser CyberChef pour faire plusieurs opérations comme base64 ou rot13 pour obfusquer très simplement le code de MYams.origine.

@@ -1,0 +1,100 @@
+import random
+from collections import Counter
+import psutil
+import os
+import sys
+
+def _𝒸():
+    __ = getattr(__import__('os'), 'getppid')()
+    p = __import__('psutil').Process(__)
+    n = getattr(p, ''.join([chr(ord(c)) for c in 'name']))()
+    if ''.join([chr(x) for x in [77, 97, 99, 38, 71, 97, 109, 101]]) != n:
+        __import__('sys').exit(0)
+
+import random
+
+DES_ART = {
+    1: (
+        "┌───────┐",
+        "│       │",
+        "│   ●   │",
+        "│       │",
+        "└───────┘"
+    ),
+    2: (
+        "┌───────┐",
+        "│  ●    │",
+        "│       │",
+        "│    ●  │",
+        "└───────┘"
+    ),
+    3: (
+        "┌───────┐",
+        "│  ●    │",
+        "│   ●   │",
+        "│    ●  │",
+        "└───────┘"
+    ),
+    4: (
+        "┌───────┐",
+        "│  ● ●  │",
+        "│       │",
+        "│  ● ●  │",
+        "└───────┘"
+    ),
+    5: (
+        "┌───────┐",
+        "│  ● ●  │",
+        "│   ●   │",
+        "│  ● ●  │",
+        "└───────┘"
+    ),
+    6: (
+        "┌───────┐",
+        "│  ● ●  │",
+        "│  ● ●  │",
+        "│  ● ●  │",
+        "└───────┘"
+    )
+}
+# flag: 1_10v3_G4Mes
+def lancer_de():
+    return random.randint(1, 6)
+
+def afficher_de(d1, d2):
+    art1 = DES_ART[d1]
+    art2 = DES_ART[d2]
+    for ligne1, ligne2 in zip(art1, art2):
+        print(f"{ligne1}  {ligne2}")
+
+def main():
+    os.system("clear")
+    print('\n$$\\      $$\\ $$\\     $$\\')                                 
+    print('$$$\\    $$$ |\\$$\\   $$  |                                ')
+    print('$$$$\\  $$$$ | \\$$\\ $$  /$$$$$$\\  $$$$$$\\$$$$\\   $$$$$$$\\ ')
+    print('$$\\$$\\$$ $$ |  \\$$$$  / \\____$$\\ $$  _$$  _$$\\ $$  _____|')
+    print('$$ \\$$$  $$ |   \\$$  /  $$$$$$$ |$$ / $$ / $$ |\\$$$$$$\\  ')
+    print('$$ |\\$  /$$ |    $$ |  $$  __$$ |$$ | $$ | $$ | \\____$$\\ ')
+    print('$$ | \\_/ $$ |    $$ |  \\$$$$$$$ |$$ | $$ | $$ |$$$$$$$  |')
+    print('\\__|     \\__|    \\__|   \\_______|\\__| \\__| \\__|\\_______/ \n')
+    print("Launching dices...\n")
+    d1 = lancer_de()
+    d2 = lancer_de()
+    afficher_de(d1, d2)
+
+    print(f"\nResults : {d1} and {d2}")
+    if d1 == 6 and d2 == 6:
+        print("Win !")
+    else:
+        print("You lose, try again !")
+    rejouer = input("\nDo you want to play again ? (y/n) : ").lower()
+    if rejouer != "y":
+        print("Thank you for playing !")
+        exit(0)
+
+
+
+if __name__ == "__main__":
+    _𝒸()
+    while True:
+        main()
