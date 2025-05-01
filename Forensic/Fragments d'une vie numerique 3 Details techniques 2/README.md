@@ -8,8 +8,8 @@ Le nom attribué à l’iPhone semble étrange pour quelqu’un comme Mac. Est-c
 
 Cette fois, vous devez retrouver :
 
-🔹 Le nom donné à l’iPhone
-🔹 Le numéro de série de l'appareil
+Le nom donné à l’iPhone 
+Le numéro de série de l'appareil 
 
 **Format :** MAC{nom:n°serie}  
 
