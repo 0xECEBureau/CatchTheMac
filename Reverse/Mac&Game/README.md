@@ -6,7 +6,7 @@ Mac était apperement un fou de jeu vidéo et plus particuliairement de la méca
 
 Votre but va être de cracker le mot de passe du luncher pour lancer les jeux et trouver les différents easter eggs cachés pour continuer votre enquête sur notre mistérieux Mac.
 
-PS : Les challenges suivants ne peuvent pas être exécutés tel quel sans ce launcher, et il faudra les mettres dans le même répertoire.
+PS : Les challenges suivants ne peuvent pas être exécutés tel quels sans ce launcher, et il faudra les mettre dans le même répertoire.
 
 ```
 $ sha256sum 'Mac&Game' 

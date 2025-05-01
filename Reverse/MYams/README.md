@@ -2,9 +2,9 @@
 
 **Niveau :** facile
 
-Mac aime beaucoup jouer au YAMS mais malheuresement pour vous il s'agit simplement d'un jeu ou vous allez lancer des dés.
+Mac aime beaucoup jouer au YAMS mais malheuresement (ou heureusement) pour vous il s'agit simplement d'un jeu ou vous allez lancer des dés.
 
-Cependant la partie la plus intêressante ne se trouve pas dans se qu'il fait, à vous de retrouver les précieuse notes Mac.
+Cependant la partie la plus intêressante ne se trouve pas dans se qu'il fait, à vous de retrouver les précieuses notes Mac.
 
 ```
 $ sha256sum MYams 
