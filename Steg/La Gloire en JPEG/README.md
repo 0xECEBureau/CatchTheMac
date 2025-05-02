@@ -1,6 +1,6 @@
 # Challenge : La Gloire en JPEG
 
-**Niveau :** easy
+**Niveau : facile**
 
 Mac, convaincu d'être l'être le plus fascinant de ce monde, a décidé de diffuser son portrait à tous les membres de l'organisation, persuadé que chacun sera émerveillé devant une telle œuvre d'art. Il l'accompagne simplement d'une note prétentieuse :
 
