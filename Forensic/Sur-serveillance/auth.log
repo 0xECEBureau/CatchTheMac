@@ -1,0 +1,39 @@
+Apr 26 22:00:05 raspberrypi sshd[1000]: Invalid user test from 10.0.0.5 port 34567  
+Apr 26 22:00:05 raspberrypi sshd[1000]: input_userauth_request: invalid user test  
+Apr 26 22:01:10 raspberrypi sshd[1000]: Connection closed by 10.0.0.5 port 34567 [preauth]  
+Apr 26 23:10:20 raspberrypi sudo:   mac : TTY=pts/0 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/apt update  
+Apr 26 23:10:21 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by mac(uid=0)  
+Apr 26 23:10:23 raspberrypi sudo: pam_unix(sudo:session): session closed for user root  
+Apr 27 00:05:12 raspberrypi sshd[1201]: Accepted password for mac from 192.168.1.50 port 53422 ssh2  
+Apr 27 00:05:12 raspberrypi sshd[1201]: pam_unix(sshd:session): session opened for user mac by (uid=0)  
+Apr 27 00:15:30 raspberrypi sudo:   mac : TTY=pts/1 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/crontab -u root -l  
+Apr 27 00:15:31 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by mac(uid=0)  
+Apr 27 00:25:47 raspberrypi sshd[1201]: Received disconnect from 192.168.1.50 port 53422:11: disconnected by user  
+Apr 27 01:10:10 raspberrypi sshd[1301]: Failed publickey for mac from 192.168.1.51 port 53210 ssh2  
+Apr 27 01:10:12 raspberrypi sshd[1301]: Connection closed by 192.168.1.51 port 53210 [preauth]  
+Apr 27 02:22:33 raspberrypi sudo:   mac : TTY=pts/2 ; PWD=/home/mac ; USER=root ; COMMAND=/bin/rm /var/log/secure.log  
+Apr 27 02:22:34 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by mac(uid=0)  
+Apr 27 02:22:35 raspberrypi sudo: pam_unix(sudo:session): session closed for user root  
+Apr 27 03:30:10 raspberrypi sshd[1401]: Accepted password for mac from 192.168.1.50 port 53422 ssh2  
+Apr 27 03:30:11 raspberrypi sshd[1401]: pam_unix(sshd:session): session opened for user mac by (uid=0)  
+Apr 27 04:45:22 raspberrypi sshd[1501]: Received disconnect from 192.168.1.50 port 53422:11: disconnected by user  
+Apr 27 05:00:01 raspberrypi CRON[1601]: (mac) CMD (/home/mac/scripts/backup.sh)  
+Apr 27 05:15:27 raspberrypi sudo:   mac : TTY=pts/3 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/logger "rotate logs"  
+Apr 27 06:45:33 raspberrypi sshd[1701]: Accepted publickey for root from 10.0.0.7 port 34568 ssh2  
+Apr 27 07:00:01 raspberrypi CRON[1801]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)  
+Apr 27 07:15:27 raspberrypi sudo:   mac : TTY=pts/4 ; PWD=/home/mac ; USER=root ; COMMAND=/bin/chmod 600 /home/mac/flag.txt  
+Apr 27 08:22:33 raspberrypi sudo:   mac : TTY=pts/5 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/crontab -u mac -l  
+Apr 27 09:30:10 raspberrypi sshd[1901]: Received disconnect from 192.168.1.50 port 53422:11: disconnected by user  
+Apr 27 10:45:27 raspberrypi sudo:   mac : TTY=pts/6 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/logger "cleanup done"  
+Apr 27 12:00:01 raspberrypi CRON[2001]: (mac) CMD (/home/mac/scripts/hidden_task.sh)  
+Apr 27 13:15:27 raspberrypi sudo:   mac : TTY=pts/7 ; PWD=/home/mac ; USER=root ; COMMAND=/bin/chown root:root /home/mac/flag.txt  
+Apr 27 14:45:22 raspberrypi sshd[2101]: Accepted password for mac from 192.168.1.50 port 53422:ssh2  
+Apr 27 15:00:01 raspberrypi CRON[2201]: (mac) CMD (/home/mac/scripts/cleanup.sh)  
+Apr 27 16:15:27 raspberrypi sudo:   mac : TTY=pts/8 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/logger "monitor run"  
+Apr 27 17:45:33 raspberrypi sshd[2301]: Received disconnect from 192.168.1.50 port 53422:11: disconnected by user  
+Apr 27 18:59:59 raspberrypi sshd[2501]: Accepted password for mac from 192.168.1.50 port 53422 ssh2  
+Apr 27 19:00:01 raspberrypi CRON[2601]: (mac) CMD (/home/mac/scripts/monitor.sh)  
+Apr 27 20:15:27 raspberrypi sudo:   mac : TTY=pts/9 ; PWD=/home/mac ; USER=root ; COMMAND=/usr/bin/logger "end of day"  
+Apr 27 21:30:10 raspberrypi sshd[2701]: Received disconnect from 192.168.1.50 port 53422:11: disconnected by user  
+Apr 27 22:50:27 raspberrypi sudo:   mac : TTY=pts/10 ; PWD=/home/mac ; USER=root ; COMMAND=/bin/rm /home/mac/old_notes.txt  
+Apr 27 23:59:59 raspberrypi sshd[2901]: Accepted password for mac from 192.168.1.50 port 53422 ssh2  
