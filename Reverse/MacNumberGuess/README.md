@@ -1,4 +1,4 @@
-# MacPaperScissors
+# MacNumberGuess
 
 **Niveau :** difficile
 
