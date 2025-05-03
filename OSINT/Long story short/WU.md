@@ -14,8 +14,9 @@ On lie plusieurs mots ('cogito', 'terminale', 'philo', 'penser ce qu'on vit', 'p
 
 On peut aussi s'aiguiller grâce au flag format, pour arriver au bon résultat.
 
-![[Pasted image 20250429192052.png]]
-![[Pasted image 20250429192122.png]]
+![Pasted image 20250429192052](https://github.com/user-attachments/assets/2b449f9c-7fb7-47e3-b8d4-f7f280b7c6e5)
+
+![Pasted image 20250429192122](https://github.com/user-attachments/assets/e142c46b-1470-4df6-8dca-5e23f4cad0b4)
 
 Les plus chauds arriveront carrément sur la page Maxicours, qui ne laisse plus de doutes : 
 https://www.maxicours.com/se/cours/conscience-et-connaissance-de-soi/
