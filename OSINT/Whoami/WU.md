@@ -1,6 +1,6 @@
 On refait un peu l'énoncé à notre sauce : on cherche une **pratique légale** (donc un nom écrit dans des textes officiels, auquel tout le monde peut avoir recours) qui permet de supprimer ses infos personnelles d'internet...
 
-![[Pasted image 20250429203100.png]]
+![Pasted image 20250429203100](https://github.com/user-attachments/assets/3352ca86-09bc-468e-8eb8-f1f69fb9eae9)
 
 Deuxième résultat, de la CNIL 
 (pour rappel : )
