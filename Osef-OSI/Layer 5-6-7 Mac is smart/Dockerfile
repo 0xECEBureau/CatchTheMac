@@ -9,6 +9,7 @@ WORKDIR /app
 
 # Copie des sources et du flag
 COPY sources/ ./sources/
+COPY flag.txt ./flag.txt
 
 # Dépendances Python
 COPY sources/requirements.txt ./

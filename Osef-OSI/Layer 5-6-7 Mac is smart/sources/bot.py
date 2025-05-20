@@ -5,12 +5,12 @@ import asyncio, os
 from pyppeteer import launch
 
 TARGET = os.getenv("TARGET", "http://localhost:5000/")
-INTERVAL = int(os.getenv("INTERVAL", "15"))
+INTERVAL = int(os.getenv("INTERVAL", "5"))
 
 # Cookies donnés au bot (admin + flag)
 COOKIES = [
     {"name": "role", "value": "YWRtaW4=", "domain": "localhost"},  # "admin" base64
-    {"name": "flag", "value": "MAC{L4Y3R5_6_7_XSS_m4st3r}", "domain": "localhost"},
+    {"name": "flag", "value": "FLAG{L4Y3R5_6_7_XSS_m4st3r}", "domain": "localhost"},
 ]
 
 async def browse_once():
