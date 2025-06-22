@@ -1,7 +1,11 @@
+On ouvre manifest.db pour chercher les sms, qui nous fait découvrir une "sms.db"
+
 SELECT * FROM Files WHERE fileID LIKE '%sms%' OR domain LIKE '%sms%' OR relativePath LIKE '%sms%';
 
 3d0d7e5fb2ce288813306e4d4636395e047a3d28|HomeDomain|Library/SMS/sms.db|1|bplist00
 
+
+Dans cette sms.db on va ensuite aller chercher la personne en question.
 
 sqlite3 3d0d7e5fb2ce288813306e4d4636395e047a3d28
 SQLite version 3.40.1 2022-12-28 14:03:47

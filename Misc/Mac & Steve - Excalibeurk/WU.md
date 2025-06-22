@@ -1,0 +1,1 @@
+Ici, le flag était simplement le nom de l'épée dans l'inventaire du joueur.

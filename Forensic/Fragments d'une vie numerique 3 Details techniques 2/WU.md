@@ -1,1 +1,1 @@
-tout se trouve dans le "info.plist" du backup
+Tout se trouve dans le "info.plist" du backup

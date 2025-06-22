@@ -1,0 +1,1 @@
+On peut trouver sur internet beaucoup de sites permettants de retrouver un pseudo a partir d'un id.

@@ -1,1 +1,1 @@
-Simplement ouvrir le sysdiagnose et tomber sur flag.txt
+Il suffit simplement ouvrir le sysdiagnose et tomber sur flag.txt

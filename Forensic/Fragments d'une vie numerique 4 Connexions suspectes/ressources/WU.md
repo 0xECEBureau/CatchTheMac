@@ -2,7 +2,7 @@ grep -ri ssid -C 5
 grep -ri bssid -C 5
 
 
-The email adress has been found in the `info.plist` file : 
+L'adresse mail à été trouvé dans le info.plist sous la forme d'une chaine chiffrée en base 64
 
 ```xml
 <key>iTunesMetadata</key>  
@@ -46,6 +46,8 @@ The email adress has been found in the `info.plist` file :
             AAAAAAAAAAAAAAAAAAAEzg==  
             </data>
 ```
+
+qui comporte :
 
 ```
 robertswigert@icloud.com

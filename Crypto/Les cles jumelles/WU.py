@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+
+"""
+Étape	
+1	Lecture des paramètres	lignes 5-9 solve
+2	p = gcd(n1, n2)	ligne 12
+3-4	Calcul de q1, φ, puis d	lignes 16-19
+5	Calcul de m et conversion en bytes	lignes 22-24
+"""
+
 import math
 from Crypto.Util.number import inverse
 from pathlib import Path

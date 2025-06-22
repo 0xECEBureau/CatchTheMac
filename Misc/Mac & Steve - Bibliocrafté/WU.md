@@ -1,0 +1,2 @@
+Grace au tool NBTexplorer, on peut chercher des items dans une save sans même à avoir à lancer le jeu.
+On chercher donc les livres puis au bout d'un petit temps de recherche on trouve le livre contenant le flag.

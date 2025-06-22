@@ -1,0 +1,1 @@
+Ici il suffisait de transformer les coordonnées données en indice afin de retrouver tous les livres jusqu'à tomber sur le bon.

@@ -1,3 +1,6 @@
+Il suffit d'ouvrir le Manifest.db et de chercher les contenus des messages, pour ensuite trouver le dossier ou ils sont stockés.
+
+
 sqlite3 Manifest.db
 
 SQLite version 3.40.1 2022-12-28 14:03:47

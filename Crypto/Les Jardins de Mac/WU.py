@@ -5,11 +5,21 @@ Solve the "Jardin Secret" challenge using only:
 - jardin_secret.key2.bin (single-byte XOR key)
 - jardin_secret.xml.enc (double-encrypted XML)
 
-Steps:
-1) Read XOR key and reverse XOR
-2) Build inverse substitution map from alphabet.txt
-3) Apply inverse substitution to reveal XML
-4) Extract and print flag
+Etapes de resolution
+
+Lire la clé XOR (un seul octet).
+
+Dé-XORer tout le fichier chiffré.
+
+Construire la table de substitution inverse à partir des 52 caractères de weird.txt :
+
+positions 0-25 → A-Z
+
+positions 26-51 → a-z
+
+Appliquer la substitution inverse au résultat du XOR ; on obtient un XML en clair.
+
+Extraire le flag contenu dans la balise <flag>.
 """
 import re
 from pathlib import Path
